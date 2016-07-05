@@ -7,7 +7,7 @@ config =
     "#{paths.static.ext}/angular/angular.js"
     "#{paths.static.ext}/angular-moment/angular-moment.js"
     "#{paths.static.ext}/angular-resource/angular-resource.js"
-    "#{paths.static.ext}/angular-route/angular-route.js"
+    "#{paths.static.ext}/angular-ui-router/release/angular-ui-router.js"
     "#{paths.static.ext}/bootstrap/js/alert.js"
     "#{paths.static.ext}/bootstrap/js/button.js"
     "#{paths.static.ext}/bootstrap/js/transition.js"

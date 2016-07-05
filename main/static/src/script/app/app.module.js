@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('mainApp', [
-  'ngRoute',
+  'ui.router',
   'angularMoment',
   'configView',
   'userList',

@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html class="{% block html_class %}{{html_class}}{% endblock %}" lang="en" ng-app="mainApp">
-  <head>
+<head>
     # include 'bit/meta.html'
     <title>
-      # block title
+        # block title
         {{title + ' |' if title}}
-      # endblock
-      {{config.CONFIG_DB.brand_name}}
+        # endblock
+        {{config.CONFIG_DB.brand_name}}
     </title>
     # include 'bit/style.html'
     # block head
     # endblock
     # include 'bit/analytics.html'
-  </head>
+</head>
 
-  <body>
-    # include 'bit/header.html'
-    # include 'bit/announcement.html'
-    # block header
-    # endblock
-    <div class="container">
-      # include 'bit/notifications.html'
-      # block content
-      # endblock
-    </div>
-    # include 'bit/footer.html'
-    # include 'bit/script.html'
-    # block scripts
-    # endblock
-  </body>
+<body class="home">
+# block content
+# endblock
+# include 'bit/script.html'
+# block scripts
+# endblock
+</body>
 </html>
