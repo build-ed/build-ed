@@ -1,0 +1,21 @@
+{
+  "name": "gae-init",
+  "dependencies": {
+    "angular": "~1",
+    "angular-moment": "~1",
+    "angular-resource": "~1",
+    "angular-ui-router": "~1",
+    "bootstrap": "~3",
+    "font-awesome": "~4",
+    "jquery": "~2",
+    "moment": "~2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": ["less/**", "fonts/*", "js/*"]
+    },
+    "font-awesome": {
+      "main": ["less/*", "fonts/*"]
+    }
+  }
+}
